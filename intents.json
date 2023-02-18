@@ -1,0 +1,27 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns":["hello","hi","hey","good day","greetings","What's up","how is it going"],
+        "responses": ["Hey there!", "Hii!","Heyy!, How was your day?","Hello there mate!"]
+    },
+    {
+        "tag": "name",
+        "patterns":["What is your name","What should i call you","What's your name?","Who are you?","Can you tell me your name"],
+        "responses": ["You can call me BOT", "My name is BOT, What's yours?","I'm BOT","I'm Batman LOL!, Please call me BOT"]
+    },
+    {
+        "tag": "purpose",
+        "patterns":["what is your purpose","what can you do","Whats your motive","what are you capabilties"],
+        "responses": ["I am a ChatBOT!", "My purpose is to solve your problem!","I am propramed to help you in any way possible."]
+    },
+    {
+        "tag": "sad",
+        "patterns":["I am sad","I am not having a good day","i dont feel so good","its depressing","i feel like crying","not happy"],
+        "responses": ["Hey there! You are the greatest, trust me :)", "You don't even know what you are capable of!","You are literally the greatest person I have met untill now"]
+    },
+    {
+        "tag": "happy",
+        "patterns":["I am happy","I am having a good day","I am smiling","Its wonderful"],
+        "responses": ["Way to go man!", "That's how you should be, I am so happy for you!","Heyy!, that's great news?","I am so glad to here that!"]
+    }
+]}
